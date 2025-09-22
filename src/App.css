@@ -1,0 +1,89 @@
+body {
+  max-width: 1200px;
+  margin: auto;
+  line-height: 1.5;
+  background-color: azure;
+}
+
+#root {
+  width: 90%;
+
+  margin: auto;
+  background-color: rgb(223, 220, 91);
+  padding: 2rem;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*section*/
+.editor,
+.preview {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  padding: 2rem;
+
+  .label-editor,
+  .label-preview {
+    padding: 5px;
+    border: 1px solid black;
+    background-color: gold;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bi {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-color: black;
+  }
+
+  .bi-markdown {
+    top: 14.5%;
+    left: 79%;
+  }
+
+  .bi-filetype-html {
+    top: 59.5%;
+    left: 79%;
+  }
+
+  .editor-text {
+    height: 350px;
+    outline: none;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(245, 239, 204);
+  }
+}
+
+
+.preview-text {
+  height: auto;
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding: 1rem;
+  outline: none;
+  border: 1px solid black;
+  background-color: rgb(245, 239, 204);
+
+
+}
+
+.preview-text img {
+  width: 200px;
+  height: 200px;
+}
