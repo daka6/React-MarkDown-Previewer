@@ -1,4 +1,4 @@
-![](./assets/preview.png)
+![](src/assets/preview.png)
 
 
 # React + Vite
